@@ -1,0 +1,54 @@
+.swarper-person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .form-person {
+        width: max-content;
+        border-radius: 5px;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 5px;
+
+        .liner-list {
+            display: flex;
+            flex-direction: row;
+            margin: 10px 0;
+
+            .line {
+                margin: auto 0;
+            }
+
+            .ant-form-item {
+                margin: 5px;
+            }
+
+            .form-button {
+                margin: auto 0;
+
+                button {
+                    margin-left: 3rem;
+                }
+            }
+        }
+
+        .id-card {
+            input {
+                text-align: center;
+            }
+        }
+    }
+
+    .data-table {
+        width: 80%;
+        padding: 20px;
+        .input-select-all{
+            margin: 10px 0;
+        }
+    }
+}
+
+.ant-form-item-explain-error {
+    position: absolute;
+}

@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+
+    .header-manu {
+        display: flex;
+        align-items: center;
+
+        .ant-form-item {
+            margin: 0;
+        }
+
+        button {
+            margin-right: 10px;
+        }
+    }
+
+    .title {
+        h1 {
+            margin: 0;
+        }
+    }
+}
+
+.container {
+    .start-session {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            width: 13rem;
+            height: 6rem;
+        }
+    }
+}

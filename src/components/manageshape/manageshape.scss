@@ -1,0 +1,45 @@
+@import '../../variables.scss';
+
+.swarper-shape {
+    .buttons-control {
+        display: flex;
+        justify-content: center;
+        .box-unwrap {
+            padding: 2rem 0;
+            border-bottom: 1px solid $theme-border;
+            button:first-child {
+                margin-right: 10px;
+                width: 13rem;
+                height: 9rem;
+            }
+
+            button:last-child {
+                margin-left: 10px;
+                width: 13rem;
+                height: 9rem;
+            }
+
+            button {
+                width: 26rem;
+                height: 9rem;
+            }
+        }
+    }
+    .grid-shape{
+        display: flex;
+        justify-content: center;
+        .box-list-shape{
+            min-width: 855px;
+            button {
+                width: 100%;
+                height: 9rem;
+            }
+
+            .ant-row{
+                .ant-col{
+                    padding: 10px 0px 0px 10px;
+                }
+            }
+        }
+    }
+}
